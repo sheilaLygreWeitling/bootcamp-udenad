@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 	const greetings = "hej med dig, "
 	
+
 	function hils(greetingsHey){
 		greetingsHey = "sheila!";
 		console.log(greetings + greetingsHey);
