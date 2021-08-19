@@ -7,8 +7,8 @@ document.addEventListener("DOMContentLoaded", () => {
 	let buttonPlus = document.querySelector("#btn-count-increase");
 	let buttonMinus = document.querySelector("#btn-count-decrease");
 	let textCountElement = document.querySelector("#text-count");
-	let minimunNumber = 0;
-	let maximumNumber = 10;
+	let minimunNumber = 0;/*deklærer minimunNumber variablen*/
+	let maximumNumber = 10;/*deklærer maximumNumber variablen*/
 	
 	function updateNumber () {	
 		textCountElement.textContent = startNumber;
